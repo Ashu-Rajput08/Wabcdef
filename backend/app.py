@@ -11,8 +11,14 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-ROOT = Path(__file__).resolve().parent.parent
-DATA_PATH = Path(os.getenv("WIND_DATA_PATH", ROOT / "backend/data/january_2026.json"))
+BACKEND_DIR = Path(__file__).resolve().parent
+ROOT = BACKEND_DIR.parent
+DATA_PATH = Path(
+    os.getenv(
+        "WIND_DATA_PATH",
+        str(BACKEND_DIR / "data" / "january_2026.json"),
+    )
+)
 LONDON = ZoneInfo("Europe/London")
 
 app = FastAPI(title="Wind Desk API", version="1.0.0")
