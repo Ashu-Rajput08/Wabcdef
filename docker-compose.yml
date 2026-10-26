@@ -1,0 +1,9 @@
+services:
+  wind-desk:
+    image: ashurajput08/wind-desk:1.0.2
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      PORT: 8000
+    restart: unless-stopped
