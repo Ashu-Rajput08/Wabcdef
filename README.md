@@ -128,7 +128,7 @@ The tests check source cadence, complete hourly coverage for all 31 delivery day
 | Bias | Average `forecast - actual`; positive means wind was over-forecast on average | MW |
 | WAPE | Sum of absolute errors divided by sum of actual generation | % |
 
-For the saved snapshot at the default cutoff, there are **744 hourly comparisons**: MAE **2,013.0 MW**, RMSE **2,505.9 MW**, bias **+1,729.9 MW**, and WAPE **17.84%**. These are historical accuracy statistics, not purchase volumes, prices, or future performance guarantees.
+
 
 ## Project structure
 
