@@ -1,6 +1,6 @@
 # Wind Desk
 
-A historical day-ahead wind forecast accuracy dashboard for Great Britain. Wind Desk compares Elexon WINDFOR forecasts with Elexon FUELHH wind generation actuals for January 2026 decision dates.
+A historical day-ahead wind forecast accuracy dashboard. Wind Desk compares Elexon WINDFOR forecasts with Elexon FUELHH wind generation actuals for January 2026 decision dates.
 
 **Stack:** React · Vite · FastAPI · Docker
 
