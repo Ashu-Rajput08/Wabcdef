@@ -6,6 +6,8 @@ A historical day-ahead wind forecast accuracy dashboard. Wind Desk compares Elex
 
 > This is a historical analysis pilot. It evaluates wind forecast accuracy; it does not calculate an energy purchase recommendation.
 
+## Deployed Vercel app - https://wind-energy-analysis.vercel.app
+
 ## What the dashboard does
 
 - Select a delivery day or view the full period.
