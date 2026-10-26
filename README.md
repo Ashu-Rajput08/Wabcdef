@@ -66,7 +66,7 @@ To build from the source files instead of pulling the published image, run `dock
 
 ## Run the published Docker Hub image
 
-The image currently running in Docker Desktop is published at [Docker Hub](https://hub.docker.com/r/ashurajput08/wind-desk) as `ashurajput08/wind-desk:1.0.2` and `ashurajput08/wind-desk:latest`. If you are not using this project folder, on a computer with Docker Desktop installed run:
+The image currently running in Docker Desktop is published at [Docker Hub](https://hub.docker.com/r/ashurajput08/wind-desk) as `ashurajput08/wind-desk:1.0.2`. If you are not using this project folder, on a computer with Docker Desktop installed run:
 
 ```powershell
 docker pull ashurajput08/wind-desk:1.0.2
