@@ -140,11 +140,6 @@ For the saved snapshot at the default cutoff, there are **744 hourly comparisons
 │   ├── requirements.txt          # Python dependencies
 │   ├── data/                     # JSON snapshot and downloaded CSVs
 │   └── tests/                    # Data and analysis integration checks
-├── docs/
-│   ├── assignment-checklist.md   # Submission steps
-│   ├── demo-run-sheet.md         # Two-part video outline
-│   ├── deployment.md             # Hosting instructions
-│   └── requirements-audit.md     # Assignment coverage and limitations
 ├── frontend/
 │   ├── index.html                # Browser entry document
 │   ├── src/App.jsx               # React dashboard
