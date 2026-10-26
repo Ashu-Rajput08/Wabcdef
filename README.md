@@ -155,9 +155,7 @@ The tests check source cadence, complete hourly coverage for all 31 delivery day
 └── README.md
 ```
 
-## Deployment and assignment submission
 
-The assignment also requires a public anonymous repository, a deployed app on an accepted host, an unlisted two-part demo video within the time limit, private-window access checks, and form submission. Follow [`docs/assignment-checklist.md`](docs/assignment-checklist.md) and [`docs/deployment.md`](docs/deployment.md). Add the deployed app URL to this section when it is available. Heroku deployment uses paid hosting resources and requires account verification; review its current billing before deploying.
 
 ## Data sources
 
@@ -168,4 +166,4 @@ Timestamps are stored in UTC. Decision cutoffs and dashboard display use Europe/
 
 ## AI disclosure
 
-OpenAI Codex assisted with requirements extraction, implementation, and review. The developer should review and understand the code before submission.
+OpenAI Codex assisted with requirements extraction, implementation, and review. 
