@@ -153,6 +153,7 @@ The tests check source cadence, complete hourly coverage for all 31 delivery day
 ├── Dockerfile
 ├── docker-compose.yml
 ├── .dockerignore
+├── vercel.json
 ├── .gitignore
 └── README.md
 ```
